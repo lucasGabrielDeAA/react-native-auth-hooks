@@ -12,8 +12,8 @@ export function signIn(): Promise<Response> {
       resolve({
         token: 'ababflaskdhgfblsdfkgsbdlfkjbsd;flgkjsdbfl',
         user: {
-          name: 'Lucas Gabriel',
-          email: 'lg.technus@gmail.com',
+          name: 'User name',
+          email: 'user_email@domain.com',
         },
       });
     }, 2000);
